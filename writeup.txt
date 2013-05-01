@@ -1,0 +1,28 @@
+1. What optimizations did you implement?
+
+We implemented private apples and targeted our snake to head for the closest apple between the 
+public apple and most recently created private apple. We also handled the bonk interrupt by turning
+right. The bonk interrupt handling is not ideal, but is better than no resolution strategy at all.
+
+2. Please explain for each of your partners what their main
+contributions were (e.g., strategy, implementation of which
+components, testing/debugging, etc.)
+
+Duc Hieu Pham: Choosing the correct target for the snake to follow
+
+David Toh: Bonk interrupt handling, various testing, write up
+
+Mehul Goyal: Creation of private apples 
+
+3. Please describe how your team decided to split up the tasks.
+
+Naturally, this competition has many different aspects that are somewhat independent of each other 
+(solving the puzzle for a private apple and managing bonk interrupts for example). At the beginning
+we brainstormed the various things that needed doing and split the tasks into what seemed to be 3 
+equal workloads and then eached picked a group of tasks to manage.
+
+4. Describe a teamwork challenge that your team had and how you resolved it.
+
+It was difficult to find a way to work on the same code together. We all have access to our own svn
+repositories but lacked a shared space to combine all our materials. We ended up using git/github
+so that we could all work on the problem at the same time and see each others work.
